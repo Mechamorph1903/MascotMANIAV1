@@ -29,7 +29,7 @@ N/A
 
 Here's a walkthrough of implemented required features:
 
-<img src='/Guess The School/videoWalkthrough.gif' title='Video Walkthrough' width='200px' alt='Video Walkthrough' />
+<img src='/Guess The School/videoWalkthrough.gif' title='Video Walkthrough' width='500px' alt='Video Walkthrough' />
 
 
 GIF created with LiceCap  
