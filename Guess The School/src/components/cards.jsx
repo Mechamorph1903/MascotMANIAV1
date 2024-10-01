@@ -1,21 +1,24 @@
-import react from 'react';
+import React, { useState } from 'react';
 
+const Cards = ({ school, isFlipped, clicker }) => {
+  
 
-const Cards = ({school}) => {
-    return (
-        <div className="card">
-           <div className='card-inner'>
-           <div className='card-front'>
-           <img src={school.img} alt="mascot" className='card-image' />
-           </div>
-            <div className="card-back">
-                <h2><strong>{school.mascot}</strong></h2>
-                <h3>{school.name}</h3>
-                <p>{school.location}</p>
-            </div>
-           </div>
+  return (
+    <div className={`card ${isFlipped ? 'flipped' : ''}`} onClick={clicker}>
+      <div className="card-inner">
+        <div className="card-front">
+          <img src={school.img} alt="school" />
         </div>
-    );
+        <div className="card-back" style={{ background: school.color}}>
+          <div className="card-content">
+            <h3>{school.mascot}</h3>
+            <h3>{school.name}</h3>
+            <p>{school.location}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default Cards
+export default Cards;
