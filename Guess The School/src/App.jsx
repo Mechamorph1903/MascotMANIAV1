@@ -29,7 +29,7 @@ function App() {
       mascot: "Seymour the Golden Eagle",
       img: "https://mascothalloffame.com/wp-content/uploads/2023/03/SoMiss-e1678822654287.jpg",
       location: "Hattiesburg, Mississippi",
-      color: "#FFD14C"
+      color: "linear-gradient(to right, #FFD14C, #000000)"
     },
     {
       name: "Mississippi State University",
@@ -43,7 +43,7 @@ function App() {
       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Albert_and_Alberta.jpg/413px-Albert_and_Alberta.jpg",
       location: "Gainesville, Florida",
       mascot: "Albert and Alberta the Alligators",
-      color: "#EA6B36"
+      color: "linear-gradient(to right, #EA6B36, #0000FF)"
     },
    {
       name: "University of Alabama",
@@ -57,7 +57,7 @@ function App() {
       img: "https://dailyiowan.com/wp-content/uploads/2023/10/2023_09_16_HERKY_CB0014.jpg",
       location: "Iowa City, Iowa",
       mascot: "Herky the Hawk",
-      color: "#080808"
+      color: "linear-gradient(to right, #080808, #EFBF04)"
     },
     {
       name: "Purdue University",
@@ -92,7 +92,7 @@ function App() {
       img: "https://www.colorado.edu/coloradan/sites/default/files/styles/large/public/slider/coloradanfall21-looka-1500x1000.png?itok=vlc-TEHS",
       location: "Boulder, Colorado",
       mascot: "Chip the Buffalo",
-      color: "#000000"
+      color: "linear-gradient(to right, #C9B278, #000000)"
     },
    {
       name: "University of Oregon",
