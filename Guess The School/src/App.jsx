@@ -114,7 +114,7 @@ function App() {
   return (
     <div>
       <div className='Header'>
-      <h1>Guess The School</h1>
+      <h1>Mascot Mania!</h1>
       <h4>In this app, you are going to guess Colleges based on their Mascot. Are you Mascot-Savvy?</h4>
       <h6>Number of cards: 10</h6>
       </div>
