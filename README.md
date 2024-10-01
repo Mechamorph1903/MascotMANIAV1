@@ -1,8 +1,8 @@
-# Web Development Project 2 - *Name of App Here*
+# Web Development Project 2 - *Mascot Mania*
 
 Submitted by: Daniel Anorue
 
-This web app: A card game asking users to guess schools based on their mascot
+This web app: A card game asking users to guess mascots and their schools based on their Pictures
 
 Time spent: **4** hours spent in total
 
